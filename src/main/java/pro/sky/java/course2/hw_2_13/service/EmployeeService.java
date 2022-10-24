@@ -16,35 +16,7 @@ public class EmployeeService {
     private final List<Employee> employeeList;
 
     public EmployeeService() {
-        employeeList = new ArrayList<>(
-                List.of(
-                        new Employee(
-                                "Ivan",
-                                "Ivanov",
-                                1,
-                                1000.0),
-                        new Employee(
-                                "Petr",
-                                "Petrov",
-                                1,
-                                2000.0),
-                        new Employee(
-                                "Sidor",
-                                "Sidorov",
-                                2,
-                                3000.0),
-                        new Employee(
-                                "Lena",
-                                "Lenina",
-                                2,
-                                4000.0),
-                        new Employee(
-                                "Dart",
-                                "Veider",
-                                2,
-                                5000.0)
-                )
-        );
+        employeeList = new ArrayList<>();
     }
 
     public List<Employee> getEmployeeList() {
